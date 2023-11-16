@@ -1,0 +1,33 @@
+body {
+    color: white;
+    background: rgb(26, 26, 55);
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-height: 100vh;
+    margin: 2rem 1rem;
+}
+
+header {
+    background-color: rgb(31, 31, 63);
+    padding: 1rem .5rem;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+.square {
+    max-width: 280px;
+    /*max-height: 220px;*/
+}

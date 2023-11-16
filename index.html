@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Cloud</title>
 </head>
 
@@ -15,8 +16,6 @@
         <div class="square">
             <h3>Was ist Cloud?</h3>
             <p>Ein Verbund von Computern, oder gemeinsam genutzen Rechnerressourcen.</p>
-        </div>
-        <div class="square">
             <figure>
                 <img src="img/cloud4.webp">
                 <figcaption>"The Cloud"</figcaption>
@@ -37,14 +36,41 @@
         </div>
         <div class="square">
             <h3>Dienstmodelle</h3>
-            <b>infrastructure as a service (Iaas)</b>
-            <p></p>
+            <b>Infrastructure as a service (Iaas)</b>
+            <p>Physische Server werden durch
+                den Anbieter verwaltet und
+                gewartet. Betriebssystem und
+                Software werden selbst
+                verwaltet.</p>
             <b>Platform as a service (Paas)</b>
-            <p></p>
+            <p>Laufzeitumgebung für
+                Applikationen wird durch
+                Anbieter zur Verfügung
+                gestellt. Applikation wird
+                selbst verwaltet</p>
             <b>Function as a service (Faas)</b>
-            <p></p>
+            <p>Laufzeitumgebung inkl.
+                Middleware (z.B. HTTP Server)
+                wird zur Verfügung gestellt.
+                Nur die eigentliche Funktion
+                selbst wird selbst verwaltet</p>
             <b>>Software as a service (Saas)</b>
-            <p></p>
+            <p>Die gesamte Applikation wird
+                durch den Anbieter zur
+                Verfügung gestellt.</p>
+        </div>
+        <div class="square">
+            <h3>Deployment Modelle</h3>
+            <b>Public</b>
+            <p>Benutzer hat keine Kontrolle über Infrastruktur. Jeder kann sich registrieren.</p>
+            <b>Private</b>
+            <p>Bereitstellung im eigenen Rechenzentrum. Man hat volle Kontrolle. Enorme Aufwand und Koasten.</p>
+            <b>Hybrid</b>
+            <p>Mischung von Private und Public. Beispiel: man kann die eigenen physischen Ressourcen mit ein open source
+                Interface mischen.</p>
+            <b>Community</b>
+            <p>Mehrere Firmen scchliessen sich zusammen umgemeinsam ein Cloud zu betreiben.</p>
+
         </div>
         <div class="square">
             <figure>
@@ -72,7 +98,7 @@
         <div class="square">
             <figure>
                 <img src="img/cloud5.png">
-                <figcaption>Filezilla</figcaption>
+                <figcaption></figcaption>
             </figure>
         </div>
         <div class="square">
@@ -96,33 +122,3 @@
 </body>
 
 </html>
-
-<style>
-    body {
-        color: white;
-        background: rgb(26, 26, 55);
-        font-size: 16px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        min-height: 100vh;
-        margin: 3rem 1rem;
-    }
-
-    .container {
-        max-width: 1200px;
-        display: flex;
-        /* flex-direction: row; */
-        flex-wrap: wrap;
-        gap: .5rem;
-    }
-
-    img {
-        max-width: 100%;
-        object-fit: cover;
-        vertical-align: bottom;
-    }
-
-    .square {
-        max-width: 280px;
-        /*max-height: 220px;*/
-    }
-</style>
